@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/background_default">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="About"
+        android:id="@+id/textView2"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="description"
+        android:id="@+id/description" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:src="@color/splash_background"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Thanks To ..."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"/>
+    <!-- begin team crew -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Ndaru Joko Prabowo AS Leader of GAC and Pengkab Aeromodelling Gunungkidul"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="M Arif Sudarsono AS UI designer"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Andi Saputra AS Tester and your phone"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Anjar Tri Atmojo AS Tester and your phone"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Ari Nuryadin AS Tester and your phone"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="me (arifcebe) AS Programmer and UX Designer"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Special Thanks for GAC familly, Hopefully this application contributed in your victory guys"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </ScrollView>
+    <!-- end team crew -->
+</LinearLayout>

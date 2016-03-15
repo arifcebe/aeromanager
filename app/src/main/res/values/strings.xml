@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Aeromanager</string>
+
+    <!-- menu item -->
+    <string name="menu_home">Home</string>
+    <string name="menu_team">Team</string>
+    <string name="menu_atlet">Atlet</string>
+    <string name="menu_nilai">Nilai</string>
+
+    <!-- image content description -->
+    <string name="image_menu_description">image menu</string>
+
+    <!-- drawer list item -->
+    <string-array name="drawer_menus">
+        <item >Home</item>
+        <item >Hasil Akhir</item>
+        <item >Priority</item>
+        <item >Graphic</item>
+        <item >Archive</item>
+        <item >About</item>
+    </string-array>
+
+    <!-- drawer list icon -->
+    <string-array name="drawer_icon">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_final</item>
+        <item>@drawable/ic_priority</item>
+        <item>@drawable/ic_statistic</item>
+        <item>@drawable/ic_action</item>
+        <item>@drawable/ic_about</item>
+    </string-array>
+
+    <!--array menu-->
+    <string-array name="array_menu">
+        <item>Ubah</item>
+        <item>Hapus</item>
+    </string-array>
+
+    <!-- setting menu -->
+    <string name="team">Team</string>
+    <string name="atlet">Atlet</string>
+
+    <!-- action button  -->
+    <string name="btn_oke">Oke</string>
+    <string name="btn_batal">Batal</string>
+    <!-- team  -->
+    <string name="team_id">Id Team</string>
+    <string name="team_nama">Nama Team</string>
+    <string name="team_status">Status</string>
+    <string name="title_team">Form Team</string>
+    <string name="tambah_team">Tambahkan Team</string>
+
+    <!-- athlete -->
+    <string name="team_title_form">Form Team</string>
+    <string name="no_urut">No.</string>
+    <string name="atlet_no_dada">No Dada</string>
+    <string name="atlet_nama">Nama</string>
+    <string name="atlet_jen_kel">Jen. Kelamin</string>
+    <string name="atlet_nama_team">Nama Team</string>
+    <string name="btn_simpan">Simpan</string>
+    <string name="tambah_atlet">Tambahkan Atlet</string>
+
+    <string name="selesai">Selesai</string>
+    <string name="score">score</string>
+    <string name="app_desc">This application will help you in taking a decision,
+                by displaying the score which has been obtained by your athletes in each round.
+                In addition you can also add another team in this application. \n
+                If you have a list of team and player that is complete in one race,
+                then this will really help you in the management team. \n
+                statistical results of the game will be very accurate.
+                so you as a manager could be more precise in taking decisions.</string>
+
+    <string name="archive_not_delete_all">archive kan hasil pertandingan, kemudian hanya hapus hasil pertandingan. team dan atlet, masih tersimpan</string>
+    <string name="archive_delete_all">archive kan hasil pertandingan, kemudian hapus hasil pertandingan, team dan atlet</string>
+
+    <string name="btn_archive_not_delete_all">archive kan sekarang</string>
+    <string name="btn_archive_delete_all">archive kan sekarang, dan hapus semua data</string>
+
+</resources>

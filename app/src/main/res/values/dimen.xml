@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="row_height">30dp</dimen>
+
+    <!-- listview divider -->
+    <dimen name="divider_height">2dp</dimen>
+
+    <!-- item padding -->
+    <dimen name="item_padding">10dp</dimen>
+
+    <!-- radius corner on drawable -->
+    <dimen name="radius">5dp</dimen>
+
+    <!-- text size -->
+    <dimen name="title_dialog">20dp</dimen>
+    <dimen name="input_score">40dp</dimen>
+
+    <!-- edit text height -->
+    <dimen name="edit_text_height">50dp</dimen>
+
+    <!-- for item -->
+    <dimen name="nama_atlet">18dp</dimen>
+    <dimen name="nodada">18dp</dimen>
+    <dimen name="nama_team">14dp</dimen>
+    <dimen name="nama_team_on_list_team">16dp</dimen>
+
+    <!-- action bar title -->
+    <dimen name="action_bar_title">16dp</dimen>
+</resources>

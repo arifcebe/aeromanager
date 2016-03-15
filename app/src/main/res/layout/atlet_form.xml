@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/background_default"
+    android:weightSum="2"
+    style="?android:buttonBarStyle">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        style="@android:style/Widget.TabWidget">
+
+        <TextView
+            android:id="@+id/title_team"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:text="@string/atlet_nama_team"
+            android:textSize="@dimen/title_dialog"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/atlet_ed_no_dada"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:inputType="number"
+            android:focusable="true"
+            android:ems="10"
+            android:hint="No Dada"
+            android:background="#ffffff"
+            android:layout_marginLeft="10dp">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/atlet_ed_nama"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:inputType="text"
+            android:background="#ffffff"
+            android:hint="@string/atlet_nama"
+            android:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:buttonBarStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:weightSum="3" >
+
+        <Button
+            android:id="@+id/atlet_btn_selesai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selesai"
+            style="?android:buttonBarButtonStyle" 
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hapus"
+            style="?android:buttonBarButtonStyle"
+            android:id="@+id/atlet_btn_hapus"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/atlet_btn_simpan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_simpan"
+            style="?android:buttonBarButtonStyle"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

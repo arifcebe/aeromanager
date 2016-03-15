@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nav_bg_color">#101010</color>
+    <color name="androidcolor">#333333</color>
+    <color name="fragment">#f2f2f2</color>
+    <color name="form_input_team">#DDDAF5</color>
+
+    <!-- row color for item on listview -->
+    <color name="row_normal">#0F0F0F</color>
+    <color name="row_highlight">#224FA3</color>
+    <color name="divider">#bbbec6</color>
+
+    <!-- background default -->
+    <color name="background_default">#FFFFFF</color>
+    <color name="background_input_text">#FFFFFF</color>
+
+    <!-- background color for item list -->
+    <color name="item_default">#ecf0f1</color>
+    <color name="item_normal">#b9c3c9</color>
+    <color name="item_hover">#5677fc</color>
+    <color name="item_own_team">#D8E6F0</color>
+    <!-- end background color item list -->
+
+    <color name="stroke">#3380b5</color>
+    <color name="stroke_default">#5c6063</color>
+
+    <!-- color text of item -->
+    <color name="no_urut">#363030</color>
+    <color name="nodada">#5c92ec</color>
+    <color name="atlet_nama">#110f0f</color>
+    <color name="team_nama">#a99c9c</color>
+    <color name="score">#c30000</color>
+    <color name="separator">#44464d</color>
+
+    <!-- color for chart -->
+    <color name="color_1">#AD83E1</color>
+    <color name="color_2">#5677fc</color>
+    <color name="color_3">#a99c9c</color>
+    <color name="color_4">#c30000</color>
+    <color name="color_5">#44464d</color>
+
+    <color name="color_6">#14A807</color>
+    <color name="color_7">#C4E6C1</color>
+    <color name="color_8">#5BA655</color>
+    <color name="color_9">#FAF761</color>
+    <color name="color_10">#FCCFC5</color>
+
+    <color name="color_11">#a99c9c</color>
+    <color name="color_12">#806A65</color>
+    <color name="color_13">#541608</color>
+    <color name="color_14">#610461</color>
+    <color name="color_15">#060A7A</color>
+
+    <color name="color_16">#ED2BDD</color>
+    <color name="color_17">#2BEDD6</color>
+    <color name="color_18">#099484</color>
+    <color name="color_19">#00FF11</color>
+    <color name="color_20">#6FBF06</color>
+
+    <!--splash activity background-->
+    <color name="splash_background">#3498db</color>
+
+
+</resources>

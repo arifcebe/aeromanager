@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/row"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:text="Large Text"
+            android:id="@+id/no_urut"
+            android:padding="5dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/team_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/row_height"
+            android:layout_marginLeft="5dp"
+            android:text="@string/team_nama"
+            android:layout_toRightOf="@+id/no_urut"
+            android:gravity="center_vertical"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/team_nama"
+            android:id="@+id/indicator_image"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/team_status"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/row_height"
+            android:text="@string/team_status"
+            android:gravity="center_vertical"
+            android:textSize="16dp"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:id="@+id/team_id"
+            android:layout_width="60dp"
+            android:layout_height="@dimen/row_height"
+            android:text="@string/team_id"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/team_nama"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

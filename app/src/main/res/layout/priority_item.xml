@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_own_item"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/no_urut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_urut"
+        android:layout_gravity="center_vertical"
+        style="@android:style/TextAppearance.Large"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/no_urut"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:layout_width="2dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/no_urut"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentTop="false"
+        android:src="@drawable/line_separator"
+        android:layout_centerVertical="true"
+        android:id="@+id/separator"/>
+
+    <TextView
+        android:id="@+id/prior_nodada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/atlet_no_dada"
+        android:textColor="@color/nodada"
+        android:textStyle="bold"
+        android:layout_centerVertical="false"
+        android:layout_toRightOf="@+id/prior_nama"
+        android:textSize="@dimen/nama_atlet"
+        style="@android:style/TextAppearance.Large"
+        />
+
+    <TextView
+        android:id="@+id/prior_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/atlet_nama"
+        android:layout_gravity="center_vertical"
+        android:layout_toRightOf="@+id/separator"
+        android:textColor="@color/atlet_nama"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:textSize="@dimen/nama_atlet" />
+
+    <TextView
+        android:id="@+id/prior_team_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/atlet_nama_team"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/prior_nama"
+        android:layout_toRightOf="@+id/separator"
+        android:textColor="@color/team_nama" />
+
+    <TextView
+        android:id="@+id/prior_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:textStyle="bold"
+        android:textColor="@color/score"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        style="@android:style/TextAppearance.Large"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ha_team_status"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone"/>
+<!--    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="No."
+        android:id="@+id/no_urut"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="@color/no_urut"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:layout_width="2dp"
+        android:layout_height="30dp"
+        android:id="@+id/separator"
+        android:src="@drawable/line_separator"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/no_urut"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nodada"
+        android:id="@+id/prior_nodada"
+        android:layout_toRightOf="@+id/separator"
+        android:layout_toLeftOf="@+id/prior_score"
+        android:textColor="@color/nodada"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:id="@+id/prior_nama"
+        android:layout_toRightOf="@+id/separator"
+        android:layout_toLeftOf="@+id/prior_score"
+        android:layout_below="@+id/prior_nodada"
+        android:textSize="20dp"
+        android:textColor="@color/atlet_nama" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score"
+        android:id="@+id/prior_score"
+        android:layout_alignParentRight="true"
+        android:textSize="20dp"
+        android:textColor="@color/score"
+        android:textStyle="bold"
+        android:layout_centerVertical="true" />-->
+
+</RelativeLayout>

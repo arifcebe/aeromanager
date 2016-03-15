@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_default">
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_home"
+        android:layout_gravity="top"
+        android:layout_weight="1"
+        android:listSelector="@drawable/list_divider"
+        android:dividerHeight="@dimen/divider_height"
+        android:divider="@drawable/list_divider"
+        android:background="@color/background_default"
+        android:padding="10dp" />
+</LinearLayout>

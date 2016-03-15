@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout_dialog"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="?android:buttonBarStyle"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:baselineAligned="@bool/abc_split_action_bar_is_narrow"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_dialog"
+            android:textStyle="bold"
+            android:textSize="@dimen/title_dialog" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pesan_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_weight="1"
+        style="?android:buttonBarButtonStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        style="?android:buttonBarStyle"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_dialog_delete_batal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:buttonBarButtonStyle"
+            android:text="@string/btn_batal"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_dialog_delete_oke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:buttonBarButtonStyle"
+            android:text="@string/btn_oke" 
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
